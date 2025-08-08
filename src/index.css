@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+html,
+body {
+    width: 100%;
+    background-color: #BBDEFB;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    position: relative;
+}
