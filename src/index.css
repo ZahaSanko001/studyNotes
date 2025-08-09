@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=IM+Fell+DW+Pica:ital@0;1&family=Mozilla+Headline:wght@200..700&family=Special+Elite&display=swap');
 @import "tailwindcss";
 
 html,
 body {
     width: 100%;
-    background-color: #BBDEFB;
+    background-color: /* hsl(0, 72%, 24%) */ #9ECAD6;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'IM Fell DW Pica', 'Special Elite', 'Aref Ruqaa Ink', 'Mozilla Headline', Verdana, Geneva;
     scroll-behavior: smooth;
     overflow-x: hidden;
     position: relative;

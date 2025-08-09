@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div>
-            <div className="w-screen mb-40 flex justify-end px-16">
-                <div className="w-[40%]"></div>
-                <div className="w-[60%] h-fit border-l-8 pl-16">
+            <div className="w-screen mb-40 flex justify-end px-8 md:px-16">
+                <div className="hidden md:w-[40%]"></div>
+                <div className="md:w-[60%] h-fit border-l-8 pl-8">
                     <div className="flex flex-col">
                         <p className="border-l-[12px] border-r-[12px] w-fit px-4 mb-8 text-xs">Quote For the Semester</p>
                         <h2 className="w-full border-b-[1px] border-dotted pb-2">“Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.”</h2>
@@ -25,20 +25,20 @@ const Home = () => {
             </div>
 
 
-            <div className="w-screen mb-40 flex px-16">
-                <div className="w-[40%]">
-                    <p className="border-l-[12px] border-r-[12px] w-fit px-4 mb-8 text-xs">About the Archivist</p>
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolor minima velit id. Tempore molestias quas explicabo voluptatem fugit modi doloremque, blanditiis a, facilis rem nobis, reprehenderit labore fugiat. Quod.</h2>
+            <div className="w-screen mb-40 flex flex-col md:flex-row gap-8 md:gap-0 px-8 md:px-16">
+                <div className="md:w-[40%]">
+                    <p className=" border-x-[12px] w-fit px-4 mb-8 text-xs">About the Archivist</p>
+                    <h2 className="w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolor minima velit id. Tempore molestias quas explicabo voluptatem fugit modi doloremque, blanditiis a, facilis rem nobis, reprehenderit labore fugiat. Quod.</h2>
                 </div>
 
-                <div className="w-[60%] h-fit border-l-8 pl-16">
+                <div className="md:w-[60%] h-fit border-l-8 pl-8">
                     <p className="border-l-[12px] border-r-[12px] w-fit px-4 mb-8 text-xs">Latest Notes Uploaded</p>
-                    <ul className="">
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
+                    <ul>
+                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
+                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
+                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
+                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
+                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
                     </ul>
                 </div>
             </div>

@@ -2,8 +2,8 @@ import React, {useState} from "react";
 import { Link } from 'react-router-dom';
 
 
-const Latest = () => {
-    const images = import.meta.glob('../assets/Notes/*.{png,jpg,jpeg,webp,svg}', { eager: true });
+const SPLnotes = () => {
+    const images = import.meta.glob('../../assets/Notes/*.{png,jpg,jpeg,webp,svg}', { eager: true });
     const imageList = Object.values(images).map((mod) => mod.default);
 
     const [currentIndex, setCurrentIndex] = useState(null);
@@ -88,4 +88,4 @@ const Latest = () => {
     )
 }
 
-export default Latest;
+export default SPLnotes;
