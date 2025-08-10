@@ -27,18 +27,18 @@ const Home = () => {
 
             <div className="w-screen mb-40 flex flex-col md:flex-row gap-8 md:gap-0 px-8 md:px-16">
                 <div className="md:w-[40%]">
-                    <p className=" border-x-[12px] w-fit px-4 mb-8 text-xs">About the Archivist</p>
-                    <h2 className="w-[80%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolor minima velit id. Tempore molestias quas explicabo voluptatem fugit modi doloremque, blanditiis a, facilis rem nobis, reprehenderit labore fugiat. Quod.</h2>
+                    <p className=" border-x-[12px] w-fit px-4 mb-8 text-xs">About the Archive</p>
+                    <h2 className="w-[80%]">This archive is an idea a few students from 81. It's a collection where later or newer batches can find materials that can help them study on their own pace.</h2>
                 </div>
 
                 <div className="md:w-[60%] h-fit border-l-8 pl-8">
                     <p className="border-l-[12px] border-r-[12px] w-fit px-4 mb-8 text-xs">Latest Notes Uploaded</p>
                     <ul>
-                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
-                        <li className="border-b-[1px] pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad corrupti natus eum magni nam, debitis similique sint molestias voluptatibus? Velit consequatur natus voluptatibus cum quo sint odit blanditiis facilis!</li>
+                        <li className="border-b-[1px] pb-2"></li>
+                        <li className="border-b-[1px] pb-2"></li>
+                        <li className="border-b-[1px] pb-2"></li>
+                        <li className="border-b-[1px] pb-2"></li>
+                        <li className="border-b-[1px] pb-2"></li>
                     </ul>
                 </div>
             </div>

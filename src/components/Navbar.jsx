@@ -16,8 +16,8 @@ const Navbar = () => {
                     <p>[<br />[<br />[</p>
                     <nav className="flex flex-col text-center items-center">
                         <a href="/Notes" className="hover:border-b">Notes</a>
-                        <a href="" className="hover:border-b">Questions Papers</a>
-                        <a href="" className="hover:border-b">Books</a>
+                        <a href="/Questions" className="hover:border-b">Questions Papers</a>
+                        <a href="/Books" className="hover:border-b">Books</a>
                     </nav>
                     <p>]<br />]<br />]</p>
                 </div>

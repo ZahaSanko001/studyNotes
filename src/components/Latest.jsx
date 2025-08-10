@@ -2,9 +2,11 @@ import React, {useState} from "react";
 import { Link } from 'react-router-dom';
 
 
-const Latest = () => {
-    const images = import.meta.glob('../assets/Notes/*.{png,jpg,jpeg,webp,svg}', { eager: true });
-    const imageList = Object.values(images).map((mod) => mod.default);
+function Latest({noteSubject}) {
+    const images = import.meta.glob(`../assets/Notes/*/*.{png,jpg,jpeg,webp,svg}`, { eager: true });
+    const imageList = Object.entries(images)
+    .filter(([path]) => path.includes(`/${noteSubject}/`))
+    .map(([, mod]) => mod.default);
 
     const [currentIndex, setCurrentIndex] = useState(null);
 
