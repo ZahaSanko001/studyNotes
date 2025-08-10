@@ -9,8 +9,8 @@ const Home = () => {
                 <div className="md:w-[60%] h-fit border-l-8 pl-8">
                     <div className="flex flex-col">
                         <p className="border-l-[12px] border-r-[12px] w-fit px-4 mb-8 text-xs">Quote For the Semester</p>
-                        <h2 className="w-full border-b-[1px] border-dotted pb-2">“Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.”</h2>
-                        <h2 className="w-full border-b-[1px] border-dotted pb-2">- Richard Feynmann</h2>
+                        <h2 className="w-full border-b-[1px] border-dotted pb-2 text-xl">“Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.”</h2>
+                        <h2 className="w-full border-b-[1px] border-dotted pb-2 text-xl">- Richard Feynmann</h2>
                         <h2 className="pb-2">Theoretical Physicist</h2>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const Home = () => {
             <div className="w-screen mb-40 flex flex-col md:flex-row gap-8 md:gap-0 px-8 md:px-16">
                 <div className="md:w-[40%]">
                     <p className=" border-x-[12px] w-fit px-4 mb-8 text-xs">About the Archive</p>
-                    <h2 className="w-[80%]">This archive is an idea of a few students from 81. It's a collection where later or newer batches can find materials that can help them study on their own pace.</h2>
+                    <h2 className="w-[80%] text-xl">This archive is an idea of a few students from 81. It's a collection where later or newer batches can find materials that can help them study on their own pace.</h2>
                 </div>
 
                 <div className="md:w-[60%] h-fit border-l-8 pl-8">
